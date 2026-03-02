@@ -1,0 +1,10 @@
+{
+  "links": [
+    { "label": "Inicio", "href": "#inicio" },
+    { "label": "Enfoque", "href": "#enfoque" },
+    { "label": "Programas", "href": "#programas" },
+    { "label": "El Espacio", "href": "#espacio" },
+    { "label": "Para Padres", "href": "#padres" }
+  ],
+  "cta": "Agendar"
+}

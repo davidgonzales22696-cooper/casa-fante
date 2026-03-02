@@ -1,0 +1,36 @@
+{
+  "tag": "Etapas",
+  "title": "El camino en Casa Fante,",
+  "titleItalic": "un mismo hilo conductor",
+  "cta": "Consulta por tu programa",
+  "programas": [
+    {
+      "key": "mira",
+      "nombre": "Mira Fante",
+      "subtitulo": "Mirar · Sentir · Confiar",
+      "edad": "8 meses a 1 año y medio",
+      "descripcion": "Exploración, primeros desplazamientos y construcción del vínculo seguro."
+    },
+    {
+      "key": "alma",
+      "nombre": "Alma Fante",
+      "subtitulo": "Moverse · Descubrir · Sentir",
+      "edad": "1 año y medio a 3 años",
+      "descripcion": "Autonomía, equilibrio y regulación emocional en un entorno íntimo y estructurado."
+    },
+    {
+      "key": "explora",
+      "nombre": "Explora Fante",
+      "subtitulo": "Imaginar · Compartir · Expresar",
+      "edad": "3 a 4 años",
+      "descripcion": "Confianza corporal, socialización consciente y primeras formas de expresión emocional."
+    },
+    {
+      "key": "crea",
+      "nombre": "Crea Fante",
+      "subtitulo": "Crear · Confiar · Crecer",
+      "edad": "4 a 6 años",
+      "descripcion": "Colaboración, expresión corporal y emocional. El niño como protagonista de su proceso."
+    }
+  ]
+}

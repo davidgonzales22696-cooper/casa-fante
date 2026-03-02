@@ -1,0 +1,32 @@
+{
+  "tag": "Modelo Fante Escucha",
+  "title": "El acompañamiento",
+  "titleItalic": "más allá de la presencialidad.",
+  "intro": "Cada familia cuenta con Fante Escucha, un acompañamiento por WhatsApp que sostiene entre sesiones, escucha dudas y propone actividades alineadas al proceso de cada niño.",
+  "body": "Permite registrar avances, inquietudes y situaciones del día a día, facilitando un seguimiento más preciso en cada encuentro presencial.",
+  "nota": "Supervisado por nuestro equipo psicológico.",
+  "piloto": "Actualmente en fase piloto.",
+  "caption": "Acompañamiento continuo por WhatsApp",
+  "bubbles": [
+    "Hoy se frustró mucho cuando le dije que guardáramos los juguetes… terminó llorando",
+    "Es normal que a esta edad aparezca esa reacción. Puedes probar anticipar el cambio con una frase breve y ofrecerle elegir qué guardar primero. Si quieres, te dejo una pequeña actividad para practicar esta semana. Link: www.actividadfante....",
+    "Gracias por compartirlo."
+  ],
+  "items": [
+    {
+      "icon": "chat",
+      "label": "Entre sesiones",
+      "texto": "Acompañamiento personalizado disponible"
+    },
+    {
+      "icon": "notebook",
+      "label": "Seguimiento real",
+      "texto": "Registro de avances e inquietudes"
+    },
+    {
+      "icon": "shield",
+      "label": "Supervisión",
+      "texto": "Equipo psicológico detrás de cada proceso"
+    }
+  ]
+}

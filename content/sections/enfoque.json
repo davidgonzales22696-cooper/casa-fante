@@ -1,0 +1,22 @@
+{
+  "tag": "Nuestro enfoque",
+  "title": "Tres pilares que sostienen",
+  "titleItalic": "cada proceso.",
+  "pilares": [
+    {
+      "numero": "01",
+      "titulo": "Movimiento libre con estructura",
+      "descripcion": "Espacios diseñados para explorar con seguridad. Grupos íntimos de máximo 5 niños por sesión. El cuerpo como primer lenguaje del desarrollo."
+    },
+    {
+      "numero": "02",
+      "titulo": "Acompañamiento a padres",
+      "descripcion": "Entrevista inicial personalizada. Orientación continua basada en observación real, no en suposiciones. Estás acompañado en cada etapa."
+    },
+    {
+      "numero": "03",
+      "titulo": "Modelo híbrido",
+      "descripcion": "La sesión no termina cuando sales del espacio. El acompañamiento continúa entre encuentros, adaptado a cada familia. Gracias a FANTE ESCUCHA"
+    }
+  ]
+}

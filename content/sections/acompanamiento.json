@@ -1,0 +1,28 @@
+{
+  "tag": "Acompañamiento a padres",
+  "title": "Cada proceso inicia",
+  "titleItalic": "con una entrevista.",
+  "cita": "Casa Fante es también un espacio de contención emocional para los adultos.",
+  "pasos": [
+    {
+      "num": "1",
+      "titulo": "Entrevista inicial personalizada",
+      "texto": "Antes de comenzar, nos tomamos el tiempo de conocer a tu familia. Sin prisa. Sin formularios genéricos."
+    },
+    {
+      "num": "2",
+      "titulo": "Observación en sesión",
+      "texto": "Observamos al niño en el espacio real. Compartimos lo que vemos, no lo que debería pasar."
+    },
+    {
+      "num": "3",
+      "titulo": "Guía semanal",
+      "texto": "Cada semana compartimos orientación práctica adaptada al proceso específico de tu hijo."
+    },
+    {
+      "num": "4",
+      "titulo": "Ajuste continuo",
+      "texto": "El acompañamiento se ajusta según la evolución. Nunca es un protocolo fijo."
+    }
+  ]
+}
