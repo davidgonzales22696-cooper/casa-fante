@@ -7,14 +7,18 @@ export default function AcompanamientoPadres() {
     <section id="padres" className="section-padding bg-ivory">
       <div className="container-cf">
         <div className="grid md:grid-cols-2 gap-16 items-start">
-          <div className="relative h-80 md:h-full min-h-[500px] overflow-hidden rounded-sm shadow-lg">
+
+          {/* Imagen con hover zoom */}
+          <div className="relative h-80 md:h-full min-h-[500px] overflow-hidden rounded-sm shadow-lg group">
             <Image
               src={media.connectionImage}
               alt="Acompañamiento a padres en Casa Fante"
               fill
-              className="object-cover object-center"
+              className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
+            {/* Overlay sutil */}
+            <div className="absolute inset-0 bg-charcoal/10 group-hover:bg-charcoal/5 transition-colors duration-700" />
           </div>
 
           <div>
@@ -25,10 +29,13 @@ export default function AcompanamientoPadres() {
               <em>{data.titleItalic}</em>
             </h2>
 
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-6">
               {data.pasos.map((paso) => (
-                <div key={paso.num} className="flex gap-5">
-                  <span className="font-playfair text-4xl text-olive/50 leading-none shrink-0 w-8">
+                <div
+                  key={paso.num}
+                  className="group/paso flex gap-5 p-4 -mx-4 rounded-sm transition-all duration-300 hover:bg-white hover:shadow-sm"
+                >
+                  <span className="font-playfair text-4xl text-olive/40 leading-none shrink-0 w-8 transition-colors duration-300 group-hover/paso:text-olive/70">
                     {paso.num}
                   </span>
                   <div>
@@ -44,7 +51,7 @@ export default function AcompanamientoPadres() {
             </div>
 
             <div className="mt-10 pt-8 border-t border-charcoal/10">
-              <p className="font-playfair text-xl md:text-2xl italic text-charcoal/60">
+              <p className="font-playfair text-xl md:text-2xl italic text-charcoal/55 leading-relaxed">
                 &ldquo;{data.cita}&rdquo;
               </p>
             </div>

@@ -6,31 +6,40 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-charcoal text-white/70 font-inter">
-      <div className="container-cf py-12 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="flex flex-col items-center md:items-start gap-3">
+    <footer className="bg-charcoal text-white/60 font-inter">
+      {/* Línea superior olive */}
+      <div className="h-px bg-olive/40" />
+
+      <div className="container-cf py-14 flex flex-col md:flex-row items-center md:items-end justify-between gap-10">
+
+        {/* Logo + tagline */}
+        <div className="flex flex-col items-center md:items-start gap-4">
           <Image
             src={media.logo}
             alt="Casa Fante"
-            width={100}
-            height={40}
-            className="brightness-0 invert opacity-80"
+            width={280}
+            height={70}
+            className="object-contain opacity-85"
           />
-          <p className="text-xs tracking-wider uppercase">
+          <p className="text-xs tracking-widest uppercase text-white/40">
             Desarrollo infantil desde el vínculo
           </p>
+          <p className="text-xs text-white/30">Lima, Perú</p>
         </div>
 
-        <div className="flex flex-col items-center md:items-end gap-2 text-xs">
+        {/* Links */}
+        <div className="flex flex-col items-center md:items-end gap-4">
           <a
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-olive-light hover:text-white transition-colors tracking-wider uppercase"
+            className="font-inter text-sm tracking-widest uppercase text-olive/80 hover:text-olive transition-colors duration-300"
           >
-            Agenda tu entrevista
+            Agenda tu sesión inicial →
           </a>
-          <p>© {year} Casa Fante. Todos los derechos reservados.</p>
+          <p className="text-xs text-white/25">
+            © {year} Casa Fante. Todos los derechos reservados.
+          </p>
         </div>
       </div>
     </footer>

@@ -16,7 +16,9 @@ export default function CTAButton({
   const target = href ?? whatsappLink;
 
   const base =
-    "inline-block font-inter font-medium text-sm tracking-wider uppercase transition-all duration-200 px-8 py-4 rounded-none";
+    "inline-block font-inter font-medium text-sm tracking-widest uppercase " +
+    "transition-all duration-300 ease-out px-8 py-4 rounded-none " +
+    "hover:scale-[1.03] hover:shadow-lg active:scale-[0.97]";
 
   const variants = {
     solid:

@@ -25,12 +25,12 @@ export default function Programas() {
         </div>
 
         {/* Tab buttons */}
-        <div className="flex flex-wrap justify-center gap-3 mb-10">
+        <div className="flex flex-wrap justify-center gap-3 mb-10 stagger">
           {data.programas.map((p, i) => (
             <button
               key={p.key}
               onClick={() => setActive(i)}
-              className={`font-inter text-sm md:text-base tracking-wide px-5 py-2.5 rounded-full border transition-all duration-200
+              className={`font-inter text-sm md:text-base tracking-wide px-5 py-2.5 rounded-full border transition-all duration-300 ease-out hover:scale-[1.04] active:scale-[0.97]
                 ${
                   active === i
                     ? "bg-olive text-white border-olive shadow-md"

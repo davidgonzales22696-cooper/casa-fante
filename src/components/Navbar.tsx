@@ -25,9 +25,10 @@ export default function Navbar({ activeSection, onSectionChange }: NavbarProps) 
   const linkClass = (href: string) => {
     const isActive = activeSection === href.replace("#", "");
     const base =
-      "font-inter text-xs tracking-wider uppercase px-4 py-2 rounded-md shadow transition-all duration-200 cursor-pointer";
+      "font-inter text-xs tracking-wider uppercase px-4 py-2 rounded-md shadow " +
+      "transition-all duration-300 ease-out cursor-pointer hover:scale-[1.04] active:scale-[0.97]";
     return isActive
-      ? `${base} bg-white text-olive font-semibold`
+      ? `${base} bg-white text-olive font-semibold scale-[1.04]`
       : `${base} bg-white/10 text-white hover:bg-white hover:text-olive`;
   };
 
@@ -53,9 +54,9 @@ export default function Navbar({ activeSection, onSectionChange }: NavbarProps) 
           <Image
             src={media.logo}
             alt="Casa Fante"
-            width={90}
-            height={36}
-            className="brightness-0 invert"
+            width={260}
+            height={65}
+            className="object-contain"
             priority
           />
         </button>

@@ -39,11 +39,11 @@ export default function ModeloFante() {
         </div>
 
         {/* ── 3 feature cards en fila ── */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-16 stagger">
           {data.items.map((item, i) => (
             <div
               key={item.label}
-              className="group bg-white border border-charcoal/8 rounded-sm px-7 py-8 shadow-sm flex flex-col gap-4"
+              className="group bg-white border border-charcoal/8 rounded-sm px-7 py-8 shadow-sm flex flex-col gap-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
             >
               <div className="flex items-center justify-between">
                 <div className="text-olive">
