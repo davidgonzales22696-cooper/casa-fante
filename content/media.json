@@ -1,7 +1,7 @@
 {
   "logo": "/info/logo1.png",
   "heroImage": "/info/fotos/0_intro.jpg",
-  "connectionImage": "/info/fotos/0_ulti.JPG",
+  "connectionImage": "/info/fotos/0_ulti.jpg",
   "spaceGallery": [
     "/info/fotos/5.jpg",
     "/info/fotos/6.jpg",
@@ -13,7 +13,7 @@
   "programImages": {
     "mira": "/info/fotos/1.jpg",
     "alma": "/info/fotos/2.jpg",
-    "explora": "/info/fotos/3.JPG",
+    "explora": "/info/fotos/3.jpg",
     "crea": "/info/fotos/4.jpg"
   },
   "video": "/info/fotos/v_recorrido.mp4"
